@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static files %}
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Images Page</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+  </head>
+
+  <body>
+    <h1>Hello this is images.html</h1>
+
+  <img src="{% static "Static/images/room.jpg" %}" alt="Image Not Found" >
+
+{{ images_insert }}
+
+
+  </body>
+</html>
